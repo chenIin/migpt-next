@@ -9,7 +9,7 @@ export default {
      *
      * 如果提示找不到设备，请打开调试模式获取设备真实的 name、miotDID 或 mac 地址填入
      */
-    did: 'Xiaomi 智能音箱 Pro',
+    did: '小爱触屏音箱',
     /**
      * 小米 ID（一串数字）
      *
