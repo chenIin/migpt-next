@@ -40,15 +40,16 @@ export default {
      * - ❌ https://api.openai.com/v1/（最后多了一个 /
      * - ❌ https://api.openai.com/v1/chat/completions（不需要加 /chat/completions）
      */
-    baseURL: 'https://api.openai.com/v1',
+    // baseURL: 'https://api.openai.com/v1',
+    baseURL: 'https://ark.cn-beijing.volces.com/api/v3/chat/completions',
     /**
      * API 密钥
      */
-    apiKey: 'sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    apiKey: 'db77484f-37c0-4d9d-937c-71de638ec225',
     /**
      * 模型名称
      */
-    model: 'gpt-4.1-mini',
+    model: 'doubao-seed-1-6-250615',
   },
   prompt: {
     /**
